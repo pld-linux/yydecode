@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/File
 Source0:	http://dl.sourceforge.net/yydecode/%{name}-%{version}.tar.gz
+# Source0-md5:	9e6c5eb009f9084f7cbe7e4b766b12d8
 URL:		http://yydecode.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
