@@ -5,7 +5,7 @@ Version:	0.2.7
 Release:	1
 License:	GPL
 Group:		Applications/File
-Source0:	http://prdownloads.sourceforge.net/yydecode/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/yydecode/%{name}-%{version}.tar.gz
 URL:		http://yydecode.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
