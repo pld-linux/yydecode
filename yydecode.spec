@@ -1,7 +1,7 @@
 Summary:	Decoder for yEnc-encoded binaries
 Summary(pl):	Narzêdzie do dekodowania plików w formacie yEnc
 Name:		yydecode
-Version:	0.2.9
+Version:	0.2.10
 Release:	1
 License:	GPL
 Group:		Applications/File
