@@ -31,13 +31,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf TODO README ChangeLog NEWS AUTHORS
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc {TODO,README,ChangeLog,NEWS,AUTHORS}.gz
+%doc TODO README ChangeLog NEWS AUTHORS
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
