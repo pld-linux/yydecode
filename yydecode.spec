@@ -1,7 +1,7 @@
 Summary:	Decoder for yEnc-encoded binaries
 Summary(pl):	Narzêdzie do dekodowania plików w formacie yEnc
 Name:		yydecode
-Version:	0.2.7
+Version:	0.2.9
 Release:	1
 License:	GPL
 Group:		Applications/File
@@ -22,7 +22,7 @@ znale¼æ w usenecie. Dzia³a prawie identycznie jak znany uudecode.
 %setup -q
 
 %build
-%configure -q
+%configure
 
 %{__make}
 
@@ -36,6 +36,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc TODO README ChangeLog NEWS AUTHORS
+%doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
