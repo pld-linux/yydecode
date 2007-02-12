@@ -1,5 +1,5 @@
 Summary:	Decoder for yEnc-encoded binaries
-Summary(pl):	Narzêdzie do dekodowania plików w formacie yEnc
+Summary(pl.UTF-8):   NarzÄ™dzie do dekodowania plikÃ³w w formacie yEnc
 Name:		yydecode
 Version:	0.2.10
 Release:	1
@@ -15,9 +15,9 @@ yydecode is a decoder for yEnc encoded binaries as recently found on
 Usenet. yydecode works almost identically to the infamous uudecode
 program.
 
-%description -l pl
-yydecode to dekoder do plików zakodowanych przez yEnc, które mo¿na
-znale¼æ w usenecie. Dzia³a prawie identycznie jak znany uudecode.
+%description -l pl.UTF-8
+yydecode to dekoder do plikÃ³w zakodowanych przez yEnc, ktÃ³re moÅ¼na
+znaleÅºÄ‡ w usenecie. DziaÅ‚a prawie identycznie jak znany uudecode.
 
 %prep
 %setup -q
