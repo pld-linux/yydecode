@@ -1,5 +1,5 @@
 Summary:	Decoder for yEnc-encoded binaries
-Summary(pl.UTF-8):   Narzędzie do dekodowania plików w formacie yEnc
+Summary(pl.UTF-8):	Narzędzie do dekodowania plików w formacie yEnc
 Name:		yydecode
 Version:	0.2.10
 Release:	1
